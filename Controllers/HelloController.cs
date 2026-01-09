@@ -9,7 +9,7 @@ namespace SampleGitDemoApi.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            return Ok("Hello mmWorld - Git Demo App");
+            return Ok("Hello mmWorld - Git Demo App- This is the main branch..");
         }
 
         [HttpGet("time")]
